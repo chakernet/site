@@ -8,6 +8,17 @@ body {
     color: white;
 }
 
+.link {
+    color: #222;
+}
+
+.icon {
+    font-size: 2.2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
 a {
     color: inherit;
     text-decoration: underline;
