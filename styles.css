@@ -24,11 +24,11 @@ a {
     text-decoration: underline;
 }
 
-#ryuko {
+#rockstar {
     transition: 0.3s;
 }
-#ryuko:hover {
-    color: #e22525;
+#rockstar:hover {
+    color: red;
     transition: 0.3s;
 }
 
