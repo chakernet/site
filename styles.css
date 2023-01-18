@@ -4,45 +4,21 @@
 html,
 body {
     font-family: "Inter", sans-serif;
-    background-color: #2b2a2a;
+    background-color: black;
     color: white;
-}
-
-.link {
-    color: #222;
-}
-
-.icon {
-    font-size: 2.2rem;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: white;
-}
-
-a {
-    color: inherit;
-    text-decoration: underline;
-}
-
-#rockstar {
-    transition: 0.3s;
-}
-#rockstar:hover {
-    color: red;
-    transition: 0.3s;
 }
 
 .container {
-    margin: 0 5vw;
-    position: absolute;
+    margin: 10vh;
     top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .name {
     font-family: "Righteous", cursive;
-    font-size: 7rem;
+    font-size: 20rem;
     background: linear-gradient(
         45deg,
         #f17c58,
